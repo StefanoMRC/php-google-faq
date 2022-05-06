@@ -32,7 +32,7 @@
     
 <?php
 foreach ($faqs as $key => $value) {
-    echo "<div class='container-fluid w-75 py-5'>". "<h2>".$value['question']."</h2>"."<p class='py-5'>".$value['answer']."</p>"."</div>";
+    echo "<div class='container-fluid w-75 py-4'>". "<h2>".$value['question']."</h2>"."<p class='pt-4'>".$value['answer']."</p>"."</div>";
 }
 ?>
 
